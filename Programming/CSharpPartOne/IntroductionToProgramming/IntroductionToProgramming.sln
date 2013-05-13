@@ -1,19 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2012 for Windows Desktop
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. HelloCSharp", "1. HelloCSharp\2. HelloCSharp.csproj", "{121CE56A-B204-4DB4-BD1B-6F1069D85D12}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. HelloCSharp", "02. HelloCSharp\02. HelloCSharp.csproj", "{121CE56A-B204-4DB4-BD1B-6F1069D85D12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. PrintMyName", "2. PrintMyName\3. PrintMyName.csproj", "{E9196398-BCBA-49E9-B2CA-73FD0B044AC8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. PrintMyName", "03. PrintMyName\03. PrintMyName.csproj", "{E9196398-BCBA-49E9-B2CA-73FD0B044AC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. PrintNumbers", "3. PrintNumbers\4. PrintNumbers.csproj", "{34624F66-57D3-4C98-9BBB-1978E88B9103}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. PrintNumbers", "04. PrintNumbers\04. PrintNumbers.csproj", "{34624F66-57D3-4C98-9BBB-1978E88B9103}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. PrintWholeName", "6. PrintWholeName\6. PrintWholeName.csproj", "{9964EFFA-B6EE-4EB9-B7EF-0ACCFD6ED433}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. PrintWholeName", "06. PrintWholeName\06. PrintWholeName.csproj", "{9964EFFA-B6EE-4EB9-B7EF-0ACCFD6ED433}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. CurrentDateTime", "7. CurrentDateTime\7. CurrentDateTime.csproj", "{B5D61DA4-3851-42E8-A6BC-3A013331EBFB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. CurrentDateTime", "07. CurrentDateTime\07. CurrentDateTime.csproj", "{B5D61DA4-3851-42E8-A6BC-3A013331EBFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. SquareNum", "8. SquareNum\8. SquareNum.csproj", "{86B74C20-DB63-41AB-AB32-7C6FAECFF2F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. SquareNum", "08. SquareNum\08. SquareNum.csproj", "{86B74C20-DB63-41AB-AB32-7C6FAECFF2F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. PrintSeq", "9. PrintSeq\9. PrintSeq.csproj", "{544F2C01-EC60-4651-8836-C53BD2886101}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. PrintSeq", "09. PrintSeq\09. PrintSeq.csproj", "{544F2C01-EC60-4651-8836-C53BD2886101}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. AgeAfter10Years", "12. AgeAfter10Years\12. AgeAfter10Years.csproj", "{7001CAE2-20EE-4CEB-A6E4-3F3B678B1A22}"
 EndProject
