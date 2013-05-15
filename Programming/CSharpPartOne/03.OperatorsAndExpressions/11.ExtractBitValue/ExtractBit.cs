@@ -15,7 +15,7 @@ class ExtractBit
         int mask = 1 << bitPosition;
         int masked = mask & number;
         int bitValue = masked >> bitPosition;
-        Console.WriteLine(bitValue);
+        Console.WriteLine("The bit at position {0} is {1}", bitPosition, bitValue);
 
     }
 }
