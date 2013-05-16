@@ -8,6 +8,6 @@
 *	Write a program that reads an integer number `n` from the console and prints all the numbers in the interval **[1..n]**, each on a single line.
 *	Write a program to print the first 100 members of the sequence of Fibonacci: **0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, …**
 *	Write a program to calculate the sum (with accuracy of 0.001): **1 + 1/2 - 1/3 + 1/4 - 1/5 + ...**
-*	* Implement the "Falling Rocks" game in the text console. A small dwarf stays at the bottom of the screen and can move left and right (by the arrows keys). A number of rocks of different sizes and forms constantly fall down and you need to avoid a crash. Rocks are the symbols `^, @, *, &, +, %, $, #, !, ., ;, -` distributed with appropriate density. The dwarf is (O). Ensure a constant game speed by `Thread.Sleep(150)`.Implement collision detection and scoring system.
+*	*Implement the "Falling Rocks" game in the text console. A small dwarf stays at the bottom of the screen and can move left and right (by the arrows keys). A number of rocks of different sizes and forms constantly fall down and you need to avoid a crash. Rocks are the symbols `^, @, *, &, +, %, $, #, !, ., ;, -` distributed with appropriate density. The dwarf is (O). Ensure a constant game speed by `Thread.Sleep(150)`.Implement collision detection and scoring system.
 
     ![Screenshot](https://github.com/yangra/TelerikAcademy/blob/master/Programming/CSharpPartOne/04.ConsoleInputOutput/11.JustStones/rocks.png)
