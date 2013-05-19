@@ -2,17 +2,16 @@
 //Fibonacci: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, …
 
 using System;
-using System.Numerics;
 
 class Fibonacci
 {
     static void Main()
     {
         int counter = 0;
-        BigInteger number = 0;
-        BigInteger nextNumber = 1;
+        decimal number = 0L;
+        decimal nextNumber = 1L;
 
-        while (counter < 100)
+        while (counter < 50)
         {
             Console.WriteLine("{0}", number);
             Console.WriteLine("{0}", nextNumber);
