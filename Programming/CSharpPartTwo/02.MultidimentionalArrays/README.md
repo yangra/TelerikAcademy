@@ -110,39 +110,39 @@ d)<table>
 Example:
 <table>
     <tr>
-        <td>**ha**</td>
+        <td><strong>ha</strong></td>
         <td>fifi</td>
         <td>ho</td>
-		<td>hi</td>
+	<td>hi</td>
     </tr>
     <tr>
         <td>fo</td>
-        <td>**ha**</td>
+        <td><strong>ha</strong></td>
         <td>hi</td>
-		<td>xx</td>
+	<td>xx</td>
     </tr>
     <tr>
         <td>xxx</td>
         <td>ho</td>
-        <td>**ha**</td>
-		<td>xx</td>
+        <td><strong>ha</strong></td>
+	<td>xx</td>
     </tr>
 </table>
 <table>
     <tr>
         <td>s</td>
         <td>qq</td>
-        <td>**s**</td>
+        <td><strong>s</strong></td>
     </tr>
     <tr>
         <td>pp</td>
         <td>pp</td>
-        <td>**s**</td>
+        <td><strong>s</strong></td>
     </tr>
     <tr>
         <td>pp</td>
         <td>qq</td>
-        <td>**s**</td>
+        <td><strong>s</strong></td>
     </tr>
 </table>
 
@@ -154,42 +154,42 @@ Example:
 <table>
     <tr>
         <td>1</td>
-        <td>**3**</td>
+        <td><strong>3</strong></td>
         <td>2</td>
         <td>2</td>
 		<td>2</td>
         <td>4</td>
     </tr>
     <tr>
-        <td>**3**</td>
-        <td>**3**</td>
-        <td>**3**</td>
+        <td><strong>3</strong></td>
+        <td><strong>3</strong></td>
+        <td><strong>3</strong></td>
         <td>2</td>
 		<td>4</td>
         <td>4</td>
     </tr>
     <tr>
         <td>4</td>
-        <td>**3**</td>
+        <td><strong>3</strong></td>
         <td>1</td>
         <td>2</td>
-		<td>**3**</td>
-        <td>**3**</td>
+	<td><strong>3</strong></td>
+        <td><strong>3</strong></td>
     </tr>
     <tr>
         <td>4</td>
-        <td>**3**</td>
+        <td><strong>3</strong></td>
         <td>1</td>
-        <td>**3**</td>
-		<td>**3**</td>
+        <td><strong>3</strong></td>
+	<td><strong>3</strong></td>
         <td>1</td>
     </tr>
     <tr>
         <td>4</td>
-        <td>**3**</td>
-        <td>**3**</td>
-        <td>**3**</td>
-		<td>1</td>
+        <td><strong>3</strong></td>
+        <td><strong>3</strong></td>
+        <td><strong>3</strong></td>
+	<td>1</td>
         <td>1</td>
     </tr>
 </table>
