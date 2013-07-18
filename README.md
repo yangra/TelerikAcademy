@@ -16,12 +16,12 @@ C# Part 1
 C# Part 2
 -
 
-1.[Arrays](https://github.com/yangra/TelerikAcademy/tree/master/Programming/CSharpPartTwo/Arrays) - ([assignment] ()) - 16.07.2013
-2.[Multidimentional Arrays]() - ([assignment] ()) - 23.07.2013
-3.[Methods]() - ([assignment] ()) - 16.07.2013
-4.[Numeral Systems]() - ([assignment] ()) - 16.07.2013
-5.[Using Classes and Objects]() - ([assignment] ()) - 16.07.2013
-6.[Exception Handling]() - ([assignment] ()) - 16.07.2013
-7.[Text Files]() - ([assignment] ()) - 16.07.2013
-8.[String and Text Processing]() - ([assignment] ()) - 16.07.2013
+1. [Arrays](https://github.com/yangra/TelerikAcademy/tree/master/Programming/CSharpPartTwo/Arrays) - ([assignment] ()) - 16.07.2013
+2. [Multidimentional Arrays]() - ([assignment] ()) - 23.07.2013
+3. [Methods]() - ([assignment] ()) - 30.07.2013
+4. [Numeral Systems]() - ([assignment] ()) - 06.08.2013
+5. [Using Classes and Objects]() - ([assignment] ()) - 13.08.2013
+6. [Exception Handling]() - ([assignment] ()) - 20.08.2013
+7. [Text Files]() - ([assignment] ()) - 27.08.2013
+8. [String and Text Processing]() - ([assignment] ()) - 03.09.2013
 
