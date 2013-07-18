@@ -1,3 +1,6 @@
+Loops
+-----------------------------
+
 1.	Write a program that prints all the numbers from **1** to **N**.
 *	Write a program that prints all the numbers from **1** to **N**, that are not divisible by **3** and **7** at the same time.
 *	Write a program that reads from the console a sequence of **N** integer numbers and returns the minimal and maximal of them.
