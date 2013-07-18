@@ -63,11 +63,11 @@ Write a program to calculate the **Nth Catalan** number by given **N**.
     </tr>
 </table>
 *	*Write a program that calculates for given N how many trailing zeros present at the end of the number N!. Examples:
-	* N = 10 -> N! = 3628800 -> 2
-	* N = 20 -> N! = 2432902008176640000 -> 4
+	N = 10 -> N! = 3628800 -> 2
+	N = 20 -> N! = 2432902008176640000 -> 4
 Does your program work for N = 50 000?
 Hint: The trailing zeros in N! are equal to the number of its prime divisors of value 5. Think why!
-*	* Write a program that reads a positive integer number N (N < 20) from console and outputs in the console the numbers 1 ... N numbers arranged as a spiral.
+*	*Write a program that reads a positive integer number N (N < 20) from console and outputs in the console the numbers 1 ... N numbers arranged as a spiral.
 <table>
     <tr>
         <th colspan="4">N=4</th>
