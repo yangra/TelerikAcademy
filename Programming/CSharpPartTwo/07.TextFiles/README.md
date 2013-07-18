@@ -34,31 +34,18 @@
         <td>2</td>
     </tr>
 </table>
-* Write a program that reads a text file containing a list of strings, sorts them and saves them to another text file. Example:
-<table>
-    <tr>
-        <td>Ivan</td>
-        <td>George</td>
-    </tr>
-    <tr>
-        <td>Peter</td>
-        <td>Ivan</td>
-    </tr>
-    <tr>
-        <td>Maria</td>
-        <td>Maria</td>
-    </tr>
-    <tr>
-        <td>George</td>
-        <td>Peter</td>
-    </tr>
-</table>
+* Write a program that reads a text file containing a list of strings, sorts them and saves them to another text file.   
+ Example:  
+  `Ivan`________`George`   
+  `Peter`_______`Ivan`  
+  `Maria`_______`Maria`  
+  `George`______`Peter`
 * Write a program that replaces all occurrences of the substring "start" with the substring "finish" in a text file. Ensure it will work with large files (e.g. 100 MB).
 * Modify the solution of the previous problem to replace only whole words (not substrings).
-* Write a program that deletes from given text file all odd lines. The result should be in the same file.
+* Write a program that deletes from given text file all odd lines. The result should be in the same file.  
 * Write a program that extracts from given XML file all the text without the tags. Example:
-    
-    ```xml
+   
+  ```xml
     <?xml version="1.0"?>
     <student>
         <name>Pesho</name>
