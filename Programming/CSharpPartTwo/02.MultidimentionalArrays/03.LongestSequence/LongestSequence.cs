@@ -2,70 +2,95 @@
 
 class LongestSequence
 {
-    static int maxCount;
-    static int element;
+    static int maxSum = 0;
+    static string element;
+    static bool[, ,] used;
+    static int[,] directions = { { 0, 1 }, { 1, 0 }, { 1, 1 }, { -1, -1 }, };
 
-    static void Max(int count, int cell)
+    static void PrintMatrix(string[,] matrix)
     {
-        if (count > maxCount)
+        for (int i = 0; i < matrix.GetLength(0); i++)
         {
-            maxCount = count;
-            element = cell;
-        } 
+            for (int j = 0; j < matrix.GetLength(1); j++)
+            {
+                Console.Write("{0,4} ", matrix[i, j]);
+            }
+            Console.WriteLine();
+        }
+    }
+
+    static void PrintResult()
+    {
+        Console.WriteLine("Result is:");
+        Console.Write("{");
+        for (int i = 0; i < maxSum; i++)
+        {
+            if (i == maxSum - 1)
+            {
+                Console.Write("{0}", element);
+            }
+            else
+            {
+                Console.Write("{0}, ", element);
+            }
+        }
+        Console.WriteLine("}");
+    }
+
+    static bool IsTraversable(string[,] matrix, int row, int col)
+    {
+        return row >= 0 && row < matrix.GetLength(0) & col >= 0 && col < matrix.GetLength(1);
+    }
+
+    static void DFS(string[,] matrix, int row, int col)
+    {
+
+        for (int direction = 0; direction < directions.GetLength(0); direction++)
+        {
+            if (used[row, col, direction]) continue;
+
+            int currentSum = 0;
+            int currentRow = row;
+            int currentCol = col;
+
+            while (IsTraversable(matrix, currentRow, currentCol) && matrix[row, col] == matrix[currentRow, currentCol])
+            {
+                currentSum++;
+                used[currentRow, currentCol, direction] = true;
+                currentRow += directions[direction, 0];
+                currentCol += directions[direction, 1];
+            }
+            if (currentSum > maxSum)
+            {
+                maxSum = currentSum;
+                element = matrix[row, col];
+            }
+
+        }
+
     }
 
     static void Main()
     {
-        int rows = 6;
-        int cols = 10;
-        int[,] matrix = new int[rows, cols];
-        element = 0;
-        int count = 1;
-        maxCount = 0;
-        for (int i = 0; i < cols; i++)
-        {
-            for (int j = 0; j < rows-1; j++)
-            {
-                if (matrix[j,i] == matrix[j+1,i])
-                {
-                    count++;
-                }
-                else
-                {
-                    count = 1;
-                }
-                Max(count, matrix[j, i]);
+        string[,] matrix = { { "ha", "fifi", "ho", "hi" }, { "fo", "ha", "hi", "xx" }, { "xxx", "ho", "ha", "xx" } };
+        //string[,] matrix = { { "s", "qq", "s" }, { "pp", "pp", "s" }, { "pp", "qq", "s" } };
 
-                if (j == rows-2)
-                {
-                    count = 1;
-                }
-            }
-        }
-        for (int i = 0; i < rows; i++)
+        used = new bool[matrix.GetLength(0), matrix.GetLength(1), directions.GetLength(0)];
+
+        for (int row = 0; row < matrix.GetLength(0); row++)
         {
-            for (int j = 0; j < cols-1; j++)
+            for (int col = 0; col < matrix.GetLength(1); col++)
             {
-                if (matrix[i,j] == matrix[i,j+1])
-                {
-                    count++;
-                }
-                else
-                {
-                    count = 1;
-                }
-                Max(count, matrix[i, j]);
-                if (j==cols-2)
-                {
-                    count = 1;
-                }
+                DFS(matrix, row, col);
             }
         }
-        for (int i = 0; i < length; i++)
-        {
-            
-        }
+
+        PrintMatrix(matrix);
+        PrintResult();
+
+
 
     }
-}
 
+
+}
