@@ -1,4 +1,10 @@
-﻿using System;
+﻿//Write a program that fills and prints a matrix of size (n, n) as shown below: 
+// 1 8  9 16
+// 2 7 10 15
+// 3 6 11 14
+// 4 5 12 13
+
+using System;
 
 class MatrixB
 {

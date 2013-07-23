@@ -1,4 +1,11 @@
-﻿using System;
+﻿//We are given a matrix of strings of size N x M. Sequences in the matrix we define as sets of several neighbor elements
+//located on the same line, column or diagonal. Write a program that finds the longest sequence of equal strings in the matrix. 
+//Example:
+//  ha fifi ho hi                    s qq s
+//  fo   ha hi xx - > ha, ha, ha    pp pp s -> s,s,s
+// xxx   ho ha xx                   pp qq s
+
+using System;
 
 class LongestSequence
 {
@@ -22,7 +29,6 @@ class LongestSequence
     static void PrintResult()
     {
         Console.WriteLine("Result is:");
-        Console.Write("{");
         for (int i = 0; i < maxSum; i++)
         {
             if (i == maxSum - 1)
@@ -34,7 +40,7 @@ class LongestSequence
                 Console.Write("{0}, ", element);
             }
         }
-        Console.WriteLine("}");
+        Console.WriteLine();
     }
 
     static bool IsTraversable(string[,] matrix, int row, int col)
@@ -84,12 +90,8 @@ class LongestSequence
                 DFS(matrix, row, col);
             }
         }
-
         PrintMatrix(matrix);
         PrintResult();
-
-
-
     }
 
 
