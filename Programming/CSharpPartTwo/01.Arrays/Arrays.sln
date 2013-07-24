@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2012 for Windows Desktop
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.AllocateArray", "Arrays\01.AllocateArray.csproj", "{9C5403E1-F0F1-47D8-A9F1-D896169E706C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.AllocateArray", "01.AllocateArray\01.AllocateArray.csproj", "{9C5403E1-F0F1-47D8-A9F1-D896169E706C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CompareArrays", "02.CompareArrays\02.CompareArrays.csproj", "{8B0A113D-1796-4241-8557-A67DD3F97E8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CharArrays", "CharArrays\03.CharArrays.csproj", "{F1A5CF74-9122-43A5-9BBE-5A918D9A2986}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CharArrays", "03.CharArrays\03.CharArrays.csproj", "{F1A5CF74-9122-43A5-9BBE-5A918D9A2986}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.MaximalSequaence", "04.MaximalSequaence\04.MaximalSequaence.csproj", "{849BE68C-8BF2-4A0E-928C-86E58F053D80}"
 EndProject

@@ -4,7 +4,7 @@
 
 using System;
 
-class Array
+class AllocateArray
 {
     static void Main()
     {
