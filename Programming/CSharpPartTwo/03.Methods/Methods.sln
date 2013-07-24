@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.NumberFrequency", "04.Nu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.CompareNeighbours", "05.CompareNeighbours\05.CompareNeighbours.csproj", "{620329CB-F217-40B7-99BE-2CEFF322F5ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.FirstElement", "06.FirstElement\06.FirstElement.csproj", "{A95B0891-318B-4774-BA16-07C8744B5303}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{620329CB-F217-40B7-99BE-2CEFF322F5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{620329CB-F217-40B7-99BE-2CEFF322F5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{620329CB-F217-40B7-99BE-2CEFF322F5ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A95B0891-318B-4774-BA16-07C8744B5303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A95B0891-318B-4774-BA16-07C8744B5303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A95B0891-318B-4774-BA16-07C8744B5303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A95B0891-318B-4774-BA16-07C8744B5303}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
