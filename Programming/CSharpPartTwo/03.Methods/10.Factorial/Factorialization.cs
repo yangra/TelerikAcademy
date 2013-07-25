@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 class Factorialization
 {
-    static List<int> AddCurrentResults(List<int>a, List<int> b)
+    static List<int> AddCurrentResults(List<int> a, List<int> b)
     {
         List<int> result = new List<int>();
         int carry = 0;
@@ -49,13 +49,13 @@ class Factorialization
         return result;
     }
 
-    static List<int> MultiplyByDigit(List<int> array, List<int> result, int number)
+    static List<int> MultiplyByDigit(List<int> array, List<int> result, int digit)
     {
         int currentDigit = 0;
         int carry = 0;
         for (int i = 0; i < array.Count; i++)
         {
-            currentDigit = array[i] * number + carry;
+            currentDigit = array[i] * digit + carry;
             result.Add(currentDigit % 10);
             carry = currentDigit / 10;
         }
