@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.ReversedDigits", "07.Rev
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.AddArraysMethod", "08.AddArraysMethod\08.AddArraysMethod.csproj", "{15FF107D-253E-4876-8A68-292BED666C59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.MaximalElement", "09.MaximalElement\09.MaximalElement.csproj", "{05DFD8C3-7C58-4091-B9BE-8437D58790BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{15FF107D-253E-4876-8A68-292BED666C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15FF107D-253E-4876-8A68-292BED666C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15FF107D-253E-4876-8A68-292BED666C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05DFD8C3-7C58-4091-B9BE-8437D58790BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05DFD8C3-7C58-4091-B9BE-8437D58790BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05DFD8C3-7C58-4091-B9BE-8437D58790BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05DFD8C3-7C58-4091-B9BE-8437D58790BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
