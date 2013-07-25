@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.AddArraysMethod", "08.Ad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.MaximalElement", "09.MaximalElement\09.MaximalElement.csproj", "{05DFD8C3-7C58-4091-B9BE-8437D58790BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Factorial", "10.Factorial\10.Factorial.csproj", "{6EB9B5AA-8FFB-4191-BE12-EA5B729E7F65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{05DFD8C3-7C58-4091-B9BE-8437D58790BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05DFD8C3-7C58-4091-B9BE-8437D58790BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05DFD8C3-7C58-4091-B9BE-8437D58790BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB9B5AA-8FFB-4191-BE12-EA5B729E7F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB9B5AA-8FFB-4191-BE12-EA5B729E7F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB9B5AA-8FFB-4191-BE12-EA5B729E7F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB9B5AA-8FFB-4191-BE12-EA5B729E7F65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
