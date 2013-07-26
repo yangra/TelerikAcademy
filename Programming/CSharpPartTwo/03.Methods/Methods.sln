@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.PolinomialsExtended", "1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.MultiTask", "13.MultiTask\13.MultiTask.csproj", "{B25E7D95-0909-4C20-9D65-A289FD326EBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.MinMaxSumProduct", "14.MinMaxSumProduct\14.MinMaxSumProduct.csproj", "{68F13958-3B5B-444F-BB62-01DD4E111E2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.GenericMinMaxSumProduct", "15.GenericMinMaxSumProduct\15.GenericMinMaxSumProduct.csproj", "{9531C47A-E49F-4B7B-8AD2-0628884E293A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +89,14 @@ Global
 		{B25E7D95-0909-4C20-9D65-A289FD326EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B25E7D95-0909-4C20-9D65-A289FD326EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B25E7D95-0909-4C20-9D65-A289FD326EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F13958-3B5B-444F-BB62-01DD4E111E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F13958-3B5B-444F-BB62-01DD4E111E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F13958-3B5B-444F-BB62-01DD4E111E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F13958-3B5B-444F-BB62-01DD4E111E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9531C47A-E49F-4B7B-8AD2-0628884E293A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9531C47A-E49F-4B7B-8AD2-0628884E293A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9531C47A-E49F-4B7B-8AD2-0628884E293A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9531C47A-E49F-4B7B-8AD2-0628884E293A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

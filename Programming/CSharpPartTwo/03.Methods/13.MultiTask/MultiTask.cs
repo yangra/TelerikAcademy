@@ -30,12 +30,18 @@ class MultiTask
         return average;
     }
 
+    static double SolveEquation(double a, double b)
+    {
+        double result = (-b) / a;
+        return result;
+    }
+
     static void Main()
     {
         Console.WriteLine("Please chose your option: ");
         Console.WriteLine("1. Reverse digits of a number ");
         Console.WriteLine("2. Calaculate the average of a sequence of integers");
-        Console.WriteLine("3.Solve a quadratic eqation");
+        Console.WriteLine("3.Solve the eqation a*x + b = 0");
         Console.WriteLine("4.Exit");
         Console.Write("Enter your choice here: ");
         int userChoice = 0;
@@ -76,6 +82,22 @@ class MultiTask
                 Console.WriteLine("The average of this sequence is: {0}", SeqAverage(userSeq));
                 break;
             case 3:
+                Console.WriteLine("Please enter the coefficients ot he eqation a*x + b = 0");
+                double coefA = 0;
+                double coefB = 0;
+                Console.Write("Please enter coefficient a: ");
+                while (!double.TryParse(Console.ReadLine(), out coefA) || coefA == 0)
+                {
+                    Console.WriteLine("You entered invalid number! Please enter integer different than 0!");
+                    Console.Write("Please enter coefficient a: ");
+                }
+                Console.Write("Please enter coefficient b: ");
+                while (!double.TryParse(Console.ReadLine(), out coefB))
+                {
+                    Console.WriteLine("You entered invalid number! Please try again!");
+                    Console.Write("Please enter coefficient b: ");
+                }
+                Console.WriteLine("The solution {0}*x" + (coefB>0?" + ":" ") + "{1} = 0 is x = {2}",coefA, coefB, SolveEquation(coefA, coefB));
                 break;
             case 4:
                 return;
