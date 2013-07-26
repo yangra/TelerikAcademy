@@ -14,7 +14,7 @@ class CompareNeightbours
     static void Main()
     {
         int[] arr = { 2, 5, 7, 3, 2, 8, 16 };
-        Console.WriteLine(isBigger(arr,2));
+        Console.WriteLine("This element is bigger than its two neighbours: {0}", isBigger(arr,2));
     }
 }
 

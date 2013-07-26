@@ -15,7 +15,6 @@ class MinMaxSumProduct
                 maxIndex = i;
             }
         }
-
         return array[maxIndex];
     }
 

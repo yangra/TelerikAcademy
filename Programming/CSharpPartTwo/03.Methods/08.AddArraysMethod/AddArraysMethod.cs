@@ -1,5 +1,6 @@
-﻿//Write a method that adds two positive integer numbers represented as arrays of digits (each array element arr[i] 
-//contains a digit; the last digit is kept in arr[0]). Each of the numbers that will be added could have up to 10 000 digits.
+﻿//Write a method that adds two positive integer numbers represented as arrays of digits 
+//(each array element arr[i] contains a digit; the last digit is kept in arr[0]). 
+//Each of the numbers that will be added could have up to 10 000 digits.
 
 using System;
 
@@ -9,7 +10,7 @@ class AddArraysMethod
 
     static void Print(int[] array)
     {
-        for (int i = array.Length-1; i >= 0; i--)
+        for (int i = array.Length - 1; i >= 0; i--)
         {
             Console.Write("{0} ", array[i]);
         }
@@ -20,7 +21,7 @@ class AddArraysMethod
     {
         for (int i = 0; i < array.Length; i++)
         {
-            if (array[i]>9)
+            if (array[i] > 9)
             {
                 array[i + 1] += 1;
                 array[i] %= 10;
@@ -28,11 +29,11 @@ class AddArraysMethod
         }
     }
 
-    static int[] AddArrays(int[] a, int[]b)
+    static int[] AddArrays(int[] a, int[] b)
     {
-        int size = Math.Max(a.Length, b.Length)+1;
+        int size = Math.Max(a.Length, b.Length) + 1;
         result = new int[size];
-        if (a.Length < b.Length) return AddArrays(b,a);
+        if (a.Length < b.Length) return AddArrays(b, a);
         Print(a);
         Print(b);
         for (int i = 0; i < a.Length; i++)
@@ -44,13 +45,13 @@ class AddArraysMethod
             result[i] += b[i];
         }
         CheckOverflow(result);
-        if (result[result.Length-1] == 0)
+        if (result[result.Length - 1] == 0)
         {
-            Array.Resize(ref result,result.Length-1);
+            Array.Resize(ref result, result.Length - 1);
         }
         return result;
-        
-        
+
+
     }
 
     static void Main()

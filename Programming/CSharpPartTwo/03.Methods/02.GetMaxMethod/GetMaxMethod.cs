@@ -7,14 +7,7 @@ class GetMaxMethod
 {
     static int GetMax(int a, int b)
     {
-        if (a >= b)
-        {
-            return a;
-        }
-        else
-        {
-            return b;
-        }
+      return  (a >= b)? a : b;
     }
 
     static void Main()
@@ -24,7 +17,7 @@ class GetMaxMethod
         int second = int.Parse(Console.ReadLine());
         int third = int.Parse(Console.ReadLine());
 
-        Console.WriteLine(GetMax(third, GetMax(first, second))); 
+        Console.WriteLine("The maximal entered number is: {0}", GetMax(third, GetMax(first, second))); 
     }
 }
 

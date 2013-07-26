@@ -15,7 +15,6 @@ class GenericMinMaxSumProduct
                 maxIndex = i;
             }
         }
-
         return array[maxIndex];
     }
 

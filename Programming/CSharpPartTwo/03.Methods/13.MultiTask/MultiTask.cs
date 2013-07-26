@@ -36,68 +36,98 @@ class MultiTask
         return result;
     }
 
+    static int InputOption()
+    {
+        Console.Write("Enter your choice here: ");
+        int option = 0;
+        while (!int.TryParse(Console.ReadLine(), out option) || option > 4 || option < 1)
+        {
+            Console.WriteLine("This is an invalid choice. Please enter number 1 through 4!");
+            Console.Write("Enter your choice here: ");
+        }
+        return option;
+    }
+
+    static int GetNumber()
+    {
+        int number = 0;
+        Console.Write("Please enter a number: ");
+        while (!int.TryParse(Console.ReadLine(), out number) || number < 0)
+        {
+            Console.WriteLine("You entered an invalid number! Number should be positive. Try again!");
+            Console.Write("Please enter a number: ");
+        }
+        return number;
+    }
+
+    static int[] GetSeq()
+    {
+        Console.Write("Please enter a sequence of numbers separated by commas: ");
+        List<string> seq = new List<string>(Console.ReadLine().Split(','));
+        int[] sequence = new int[seq.Count];
+        for (int i = 0; i < seq.Count; i++)
+        {
+            while (!int.TryParse(seq[i], out sequence[i]) || seq.Count == 0)
+            {
+                Console.WriteLine("You entered an invalid sequence! ");
+                Console.WriteLine("The sequence cannot be empty and should consist of integers!");
+                Console.WriteLine("Please try again!");
+                Console.Write("Please enter a sequence of numbers separated by commas: ");
+                seq = new List<string>(Console.ReadLine().Split(','));
+                sequence = new int[seq.Count];
+                i = 0;
+            }
+        }
+        return sequence;
+    }
+
+    static double GetA()
+    {
+        double a = 0;
+        Console.Write("Please enter coefficient a: ");
+        while (!double.TryParse(Console.ReadLine(), out a) || a == 0)
+        {
+            Console.WriteLine("You entered invalid number! Please enter integer different than 0!");
+            Console.Write("Please enter coefficient a: ");
+        }
+        return a;
+    }
+    static double GetB()
+    {
+        double b = 0;
+        Console.Write("Please enter coefficient b: ");
+        while (!double.TryParse(Console.ReadLine(), out b))
+        {
+            Console.WriteLine("You entered invalid number! Please try again!");
+            Console.Write("Please enter coefficient b: ");
+        }
+        return b;
+    }
+
     static void Main()
     {
         Console.WriteLine("Please chose your option: ");
         Console.WriteLine("1. Reverse digits of a number ");
         Console.WriteLine("2. Calaculate the average of a sequence of integers");
-        Console.WriteLine("3.Solve the eqation a*x + b = 0");
-        Console.WriteLine("4.Exit");
-        Console.Write("Enter your choice here: ");
-        int userChoice = 0;
-        while (!int.TryParse(Console.ReadLine(), out userChoice)||userChoice>4||userChoice<1)
-        {
-            Console.WriteLine("This is an invalid choice. Please enter number 1 through 4!");
-            Console.Write("Enter your choice here: ");
-        }
+        Console.WriteLine("3. Solve the eqation a*x + b = 0");
+        Console.WriteLine("4. Exit");
+        
+        int userChoice = InputOption();
         switch (userChoice)
         {
             case 1:
-                Console.Write("Please enter a number: ");
-                int userNumber = 0;
-                while (!int.TryParse(Console.ReadLine(),out userNumber)||userNumber<0)
-                {
-                    Console.WriteLine("You entered an invalid number! Number should be positive. Try again!");
-                    Console.Write("Please enter a number: ");
-                }
+                int userNumber = GetNumber();
                 Console.WriteLine("The reversed number is: {0}", Reverse(userNumber));
                 break;
             case 2:
-                Console.Write("Please enter a sequence of numbers separated by commas: ");
-                List<string> seq = new List<string>(Console.ReadLine().Split(','));
-                int[] userSeq = new int[seq.Count];
-                for (int i = 0; i < seq.Count; i++)
-                {
-                    while (!int.TryParse(seq[i],out userSeq[i])||seq.Count == 0)
-                    {
-                        Console.WriteLine("You entered an invalid sequence! ");
-                        Console.WriteLine("The sequence cannot be empty and should consist of integers!");
-                        Console.WriteLine("Please try again!");
-                        Console.Write("Please enter a sequence of numbers separated by commas: ");
-                        seq = new List<string>(Console.ReadLine().Split(','));
-                        userSeq = new int[seq.Count];
-                        i = 0;
-                    }
-                }
+                int[] userSeq = GetSeq();
                 Console.WriteLine("The average of this sequence is: {0}", SeqAverage(userSeq));
                 break;
             case 3:
                 Console.WriteLine("Please enter the coefficients ot he eqation a*x + b = 0");
-                double coefA = 0;
-                double coefB = 0;
-                Console.Write("Please enter coefficient a: ");
-                while (!double.TryParse(Console.ReadLine(), out coefA) || coefA == 0)
-                {
-                    Console.WriteLine("You entered invalid number! Please enter integer different than 0!");
-                    Console.Write("Please enter coefficient a: ");
-                }
-                Console.Write("Please enter coefficient b: ");
-                while (!double.TryParse(Console.ReadLine(), out coefB))
-                {
-                    Console.WriteLine("You entered invalid number! Please try again!");
-                    Console.Write("Please enter coefficient b: ");
-                }
-                Console.WriteLine("The solution {0}*x" + (coefB>0?" + ":" ") + "{1} = 0 is x = {2}",coefA, coefB, SolveEquation(coefA, coefB));
+                double coefA = GetA();
+                double coefB = GetB();
+                Console.WriteLine("The solution of {0}*x" + (coefB>0?" + ":" ") + "{1} = 0 is x = {2}",coefA, coefB, SolveEquation(coefA, coefB));
                 break;
             case 4:
                 return;

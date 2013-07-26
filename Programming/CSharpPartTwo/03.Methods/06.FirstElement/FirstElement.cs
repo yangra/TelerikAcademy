@@ -27,8 +27,8 @@ class FirstElement
     {
         int[] arr = { 0, 2, 3, 8, 12, 6, 5 };
         //int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-
-        Console.WriteLine(ReturnFirstIndex(arr));
+        int result = ReturnFirstIndex(arr);
+        Console.WriteLine(result==-1?"There is no such element!":"The first element bigger than its neighbours is on position: {0} ", result);
     }
 }
 

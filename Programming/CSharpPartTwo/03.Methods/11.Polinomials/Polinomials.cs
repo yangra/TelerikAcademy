@@ -22,8 +22,11 @@ class Polinomials
     {
         for (int i = array.Length-1; i >= 0; i--)
         {
-            Console.Write("{0}*x^{1}", array[i],i);
-            if (i!= 0)
+            if (array[i] != 0)
+            {
+                Console.Write("{0}*x^{1}", array[i], i);
+            }
+            if (i!= 0&&array[i]!=0)
             {
                 Console.Write(" + ");
             }

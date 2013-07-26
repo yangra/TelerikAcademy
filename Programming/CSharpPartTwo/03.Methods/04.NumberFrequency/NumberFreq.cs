@@ -20,13 +20,9 @@ class NumberFreq
 
     static void Main()
     {
-        int[] array = new int[20];
+        int[] array = new int[] {1, 4, 5, 2, 5, 8, 5};
         int num = 5;
-        for (int i = 0; i < array.Length; i++)
-        {
-            array[i] = num;
-        }
-        Console.WriteLine(NumFreq(array, num)); 
+        Console.WriteLine("{0} times", NumFreq(array, num)); 
     }
 }
 
