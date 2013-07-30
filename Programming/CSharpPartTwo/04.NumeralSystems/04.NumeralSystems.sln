@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DecimalToBinary", "01.DecimalToBinary\01.DecimalToBinary.csproj", "{C5B165A5-7519-439D-962C-AFFBC39DD9C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.BinaryToDecimal", "02.BinaryToDecimal\02.BinaryToDecimal.csproj", "{2C33329A-E872-4036-A4D8-AEEF809202A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.DecimalToHexadecimal", "03.DecimalToHexadecimal\03.DecimalToHexadecimal.csproj", "{E1A88550-0D9F-447B-8ED3-58EEB9AC0108}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5B165A5-7519-439D-962C-AFFBC39DD9C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5B165A5-7519-439D-962C-AFFBC39DD9C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5B165A5-7519-439D-962C-AFFBC39DD9C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5B165A5-7519-439D-962C-AFFBC39DD9C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C33329A-E872-4036-A4D8-AEEF809202A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C33329A-E872-4036-A4D8-AEEF809202A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C33329A-E872-4036-A4D8-AEEF809202A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C33329A-E872-4036-A4D8-AEEF809202A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1A88550-0D9F-447B-8ED3-58EEB9AC0108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A88550-0D9F-447B-8ED3-58EEB9AC0108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A88550-0D9F-447B-8ED3-58EEB9AC0108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A88550-0D9F-447B-8ED3-58EEB9AC0108}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
