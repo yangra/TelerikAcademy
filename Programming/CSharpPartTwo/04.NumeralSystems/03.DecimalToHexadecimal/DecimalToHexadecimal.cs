@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Write a program to convert decimal numbers to their hexadecimal representation.
+
+using System;
 
 class DecimalToHexadecimal
 {
