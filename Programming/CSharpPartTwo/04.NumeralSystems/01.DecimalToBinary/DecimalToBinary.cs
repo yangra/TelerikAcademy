@@ -7,8 +7,7 @@ class DecimalToBinary
     //Converts decimal to binary integer with two's complement system
     static void Main()
     {
-        Console.Write("Please enter an integer: ");
-        int dec = int.Parse(Console.ReadLine());
+        int dec = -2147483647;
         byte index = 0;
         byte[] bin = new byte[32];
         if (dec < 0)

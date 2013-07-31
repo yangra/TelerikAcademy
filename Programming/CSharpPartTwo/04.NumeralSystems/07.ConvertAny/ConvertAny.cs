@@ -52,7 +52,7 @@ class ConvertAny
 
     static void Main()
     {
-        Console.WriteLine(ConvertBaseXToBaseY("AB123BA", 12, 15));
+        Console.WriteLine(ConvertBaseXToBaseY("ALE", 36, 4));
     }
 }
 

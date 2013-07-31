@@ -27,7 +27,7 @@ class FloatingPoint
     static string GetExponent(float num)
     {
         int exp = 0;
-        if (num<0)
+        if (num < 0)
         {
             num *= -1;
         }
@@ -36,7 +36,7 @@ class FloatingPoint
             exp++;
             num /= 2;
         }
-        while (num < 1 && num!=0)
+        while (num < 1 && num != 0)
         {
             exp--;
             num *= 2;
@@ -60,7 +60,7 @@ class FloatingPoint
             }
             else
             {
-                result+='0';
+                result += '0';
             }
             power /= 2;
         }
@@ -70,12 +70,12 @@ class FloatingPoint
     static void Main()
     {
         float number = -27.25f;
-        if (number > float.MaxValue||number < float.MinValue)
+        if (number > float.MaxValue || number < float.MinValue)
         {
-            Console.WriteLine( "Illegal number!");
+            Console.WriteLine("Illegal number!");
             return;
         }
-        Console.WriteLine("sign = {0}",GetSign(number));
+        Console.WriteLine("sign = {0}", GetSign(number));
         Console.WriteLine("exponent = {0}", GetExponent(number));
         Console.WriteLine("mantissa = {0}", GetMantissa(mantissa));
     }

@@ -32,8 +32,7 @@ class HexadecimalToDecimal
 
     static void Main()
     {
-        Console.Write("Please enter a hexadecimal number with less than 8 digits: ");
-        string hex = Console.ReadLine();
+        string hex = "FFF";
    
         Console.WriteLine(ConvertToDec(hex));
     }

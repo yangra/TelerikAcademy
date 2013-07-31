@@ -6,8 +6,8 @@ class BinaryToDecimal
 {
     static void Main()
     {
-        Console.Write("Please enter a positive binary integer: ");
-        long binary = long.Parse(Console.ReadLine());
+       
+        long binary = 10011001;
         uint powerOf2 = 1;
         int dec = 0;
         while (binary!=0)

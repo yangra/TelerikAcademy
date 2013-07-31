@@ -6,7 +6,7 @@ class HexToBin
 {
     static int ConvertToNumber(char digit)
     {
-        if (digit>='A')
+        if (digit >= 'A')
         {
             return digit - 'A' + 10;
         }
@@ -16,7 +16,7 @@ class HexToBin
     static string ToBinary(string number)
     {
         string binary = "";
-        for (int i = number.Length-1; i >= 0; i--)
+        for (int i = number.Length - 1; i >= 0; i--)
         {
             int digit = ConvertToNumber(number[i]);
             for (int j = 0; j < 4; j++)
@@ -33,7 +33,7 @@ class HexToBin
 
         string hex = "0123456789ABCDEF";
         Console.WriteLine(ToBinary(hex));
-        
+
     }
 }
 
