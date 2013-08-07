@@ -10,7 +10,7 @@ class DownloadFile
         {
             try
             {
-                client.DownloadFile("http://www.devbg.org/img/Logo-BASD.jpg", @"../../Logo.jpg");
+                client.DownloadFile("http://www.devbg.org/img/Logo-BASD.jpg", @"..\..\Logo.jpg");
                 Console.WriteLine("Successful download.");
             }
             catch (ArgumentNullException)
