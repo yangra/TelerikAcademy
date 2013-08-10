@@ -55,7 +55,7 @@ class Input10Num
         }
         catch (ArgumentException ae)
         {
-            throw new ArgumentException("Second boundary of the interval was used as number before the 10th number was reached", ae);
+            Console.WriteLine("Second boundary of the interval was used as number before the 10th number was reached! {0}", ae.Message);
         }
     }
 }

@@ -1,0 +1,12 @@
+for
+for
+Code snippet for 'for' loop
+Microsoft Corporation
+Expansion
+SurroundsWith
+index
+i
+Index
+max
+length
+Max length

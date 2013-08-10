@@ -1,0 +1,5 @@
+weather: 6 time(s)
+whether: 5 time(s)
+be: 4 time(s)
+not: 2 time(s)
+hot: 1 time(s)
