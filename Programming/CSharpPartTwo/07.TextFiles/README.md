@@ -21,6 +21,7 @@
         <td>3</td>
         <td>4</td>
     </tr>
+                                                            Result: 17
     <tr>
         <td><strong>3</strong></td>
         <td><strong>7</strong></td>
