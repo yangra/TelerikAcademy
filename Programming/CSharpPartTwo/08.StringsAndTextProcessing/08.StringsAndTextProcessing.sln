@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2012 for Windows Desktop
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ReadAndReverse", "02.ReadAndReverse\02.ReadAndReverse.csproj", "{79E9AC84-50B5-42C6-BAB3-E4CC45CD86F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CheckBrackets", "02.CheckBrackets\03.CheckBrackets.csproj", "{76ECF7AE-DEE3-4A3F-BB5E-029455E0D269}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CheckBrackets", "03.CheckBrackets\03.CheckBrackets.csproj", "{76ECF7AE-DEE3-4A3F-BB5E-029455E0D269}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.FindSubstringCount", "04.FindSubstringCount\04.FindSubstringCount.csproj", "{F8A759C1-CB45-49EA-8F83-7B1477D13689}"
 EndProject
