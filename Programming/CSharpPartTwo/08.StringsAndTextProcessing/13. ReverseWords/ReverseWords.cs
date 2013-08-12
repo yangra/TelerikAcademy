@@ -14,7 +14,7 @@ class ReverseWords
         Stack words = new Stack();
         foreach (var word in Regex.Split(text, blanks))
         {
-           if(!String.IsNullOrEmpty(word)) words.Push(word);
+            if (!String.IsNullOrEmpty(word)) words.Push(word);
         }
         foreach (Match n in Regex.Matches(text, blanks))
         {

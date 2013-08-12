@@ -18,7 +18,7 @@ class ParseURL
         Console.WriteLine("[protocol] = {0}", Regex.Match(input, pattern).Groups["protocol"]);
         Console.WriteLine("[server] = {0}", Regex.Match(input, pattern).Groups["server"]);
         Console.WriteLine("[resource] = {0}", Regex.Match(input, pattern).Groups["resource"]);
-        
+
         //string pattern = @"(.*?)://(.*?)(/.*)";
         //var match = Regex.Match(input, pattern);
         //Console.WriteLine("[protocol] = {0}", match.Groups[1]);

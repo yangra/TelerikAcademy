@@ -13,7 +13,7 @@ class ChangeURLTags
 {
     static void Main()
     {
-        string text = "<p>Please visit <a href=\"http://academy.telerik.com\">our site</a> to choose a training course. " + 
+        string text = "<p>Please visit <a href=\"http://academy.telerik.com\">our site</a> to choose a training course. " +
                      "Also visit <a href=\"www.devbg.org\">our forum</a> to discuss the courses.</p>";
         string pattern = @"<a\s*href=""(.*?)"".*?>(.*?)</a>";
         text = Regex.Replace(text, pattern, m => "[URL=" + m.Groups[1] + "]" + m.Groups[2] + "[/URL]");

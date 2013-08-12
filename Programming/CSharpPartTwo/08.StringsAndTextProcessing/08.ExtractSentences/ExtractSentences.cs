@@ -23,7 +23,7 @@ class ExtractSentences
         foreach (Match sentence in Regex.Matches(text, pattern, RegexOptions.IgnoreCase))
         {
             Console.WriteLine(sentence.Groups[1]);
-        }    
+        }
     }
 }
 

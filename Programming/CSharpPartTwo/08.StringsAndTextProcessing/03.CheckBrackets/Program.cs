@@ -17,7 +17,7 @@ class Program
             }
             else if (exp[i] == ')')
             {
-                if (stack>0)
+                if (stack > 0)
                 {
                     stack--;
                 }
@@ -40,7 +40,7 @@ class Program
         }
         catch (ArgumentException ae)
         {
-            Console.WriteLine(ae.Message); 
+            Console.WriteLine(ae.Message);
         }
     }
 }

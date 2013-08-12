@@ -11,7 +11,7 @@ class ConvertToUnicodeChar
         string text = "Hi!";
         for (int i = 0; i < text.Length; i++)
         {
-            Console.Write(String.Format(@"\u{0:X4}", (int)text[i])); 
+            Console.Write(String.Format(@"\u{0:X4}", (int)text[i]));
         }
         Console.WriteLine();
     }

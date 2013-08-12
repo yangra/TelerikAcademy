@@ -10,7 +10,7 @@ class PadAsterisk
     {
         Console.Write("Please enter a text up to 20 symbols: ");
         string read = Console.ReadLine();
-        if (read.Length>20)
+        if (read.Length > 20)
         {
             Console.WriteLine("Invalid length!");
             return;

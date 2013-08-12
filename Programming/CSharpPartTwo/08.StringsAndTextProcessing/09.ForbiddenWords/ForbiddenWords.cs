@@ -15,9 +15,9 @@ class ForbiddenWords
     static void Main()
     {
         string list = "PHP, CLR, Microsoft";
-        char[] separator = { ',', ' ' };
+        char[] separator = { ' ', ',' };
         string[] forbidden = list.Split(separator, StringSplitOptions.RemoveEmptyEntries);
-        string text = "Microsoft announced its next generation PHP compiler today. It is based on " + 
+        string text = "Microsoft announced its next generation PHP compiler today. It is based on " +
                       ".NET Framework 4.0 and is implemented as a dynamic language in CLR.";
         for (int i = 0; i < forbidden.Length; i++)
         {
