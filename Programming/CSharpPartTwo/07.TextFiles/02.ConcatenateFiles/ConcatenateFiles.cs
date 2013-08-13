@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Write a program that concatenates two text files into another text file.
+
+using System;
 using System.IO;
 
 class ConcatenateFiles
