@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Modify the solution of the previous problem to replace only whole words (not substrings).
+
+using System;
 using System.IO;
 using System.Text;
 //using System.Text.RegularExpressions;

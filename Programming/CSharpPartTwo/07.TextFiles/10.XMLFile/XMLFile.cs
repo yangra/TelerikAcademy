@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Write a program that extracts from given XML file all the text without the tags. 
+
+using System;
 using System.Collections;
 using System.IO;
 using System.Text;
@@ -30,7 +32,7 @@ class XMLFile
                         line = line.Trim();
                         if (!String.IsNullOrEmpty(line))
                         {
-                            output.WriteLine(line);   //Every text on new line for easy reading
+                            output.WriteLine(line);   
                         }
                     }
                     letter = (char)(input.Read());

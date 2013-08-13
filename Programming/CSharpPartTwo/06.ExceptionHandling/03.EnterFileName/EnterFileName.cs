@@ -1,4 +1,8 @@
-﻿using System;
+﻿//Write a program that enters file name along with its full file path (e.g. C:\WINDOWS\win.ini), reads its 
+//contents and prints it on the console. Find in MSDN how to use System.IO.File.ReadAllText(…). 
+//Be sure to catch all possible exceptions and print user-friendly error messages.
+
+using System;
 using System.IO;
 using System.Security;
 
@@ -8,7 +12,7 @@ class EnterFileName
     {
         try
         {
-            string path = File.ReadAllText(@"C:\WINDOWS\win.ini");
+            string path = File.ReadAllText(@"../../doc.txt");
             Console.WriteLine(path);
         }
         catch (ArgumentNullException)
@@ -33,13 +37,13 @@ class EnterFileName
         }
         catch (IOException)
         {
-            Console.WriteLine("There was an I/O error.");
+            Console.WriteLine("There was an I/O error");
         }
         catch (UnauthorizedAccessException)
         {
             Console.WriteLine("You don't have the permissions to open this file.");
         }
-        catch (NotSupportedException nse)
+        catch (NotSupportedException)
         {
             Console.WriteLine("This operation is not supported on the current platform.");
         }

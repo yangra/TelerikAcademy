@@ -1,4 +1,8 @@
-﻿using System;
+﻿//Write a program that downloads a file from Internet (e.g. http://www.devbg.org/img/Logo-BASD.jpg) and stores 
+//it the current directory. Find in Google how to download files in C#. 
+//Be sure to catch all exceptions and to free any used resources in the finally block.
+
+using System;
 using System.IO;
 using System.Net;
 
@@ -19,7 +23,7 @@ class DownloadFile
             }
             catch (IOException)
             {
-                Console.WriteLine("There occured an I/O exception while reading the file");
+                Console.WriteLine("There occured an I/O exception trying to read the file");
             }
             catch (WebException)
             {

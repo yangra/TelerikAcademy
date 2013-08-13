@@ -9,8 +9,8 @@ class ReadInteger
     static double CalculateSquareRoot()
     {
         double result = 0;
-        Console.WriteLine("Please enter a number:");
-        result = int.Parse(Console.ReadLine());
+        Console.WriteLine("Please enter a number to get its square root:");
+        result = double.Parse(Console.ReadLine());
         if (result < 0)
         {
             throw new ArgumentOutOfRangeException();

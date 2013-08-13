@@ -16,7 +16,7 @@ class OddLines
             {
                 if (lineNumber % 2 != 0)
                 {
-                    Console.WriteLine("Line {0}: {1}", lineNumber, line);
+                    Console.WriteLine("Line {0,2}: {1}", lineNumber, line);
                 }
                 line = reader.ReadLine();
                 lineNumber++;
