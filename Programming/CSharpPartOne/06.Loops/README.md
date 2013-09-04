@@ -12,7 +12,7 @@ Loops
 *	Write a program that calculates the greatest common divisor (GCD) of given two numbers. Use the Euclidean algorithm (find it in Internet).
 *	In the combinatorial mathematics, the Catalan numbers are calculated by the following formula:
 	
-	![Screenshot]()
+	![Screenshot](https://raw.github.com/yangra/TelerikAcademy/master/Programming/CSharpPartOne/06.Loops/Catalan.png)
 Write a program to calculate the **Nth Catalan** number by given **N**.
 *	Write a program that prints all possible cards from a standard deck of 52 cards (without jokers). The cards should be printed with their English names. Use nested `for` loops and `switch-case`.
 *	Write a program that reads from the console a positive integer number **N (N < 20)** and outputs a matrix like the following:
