@@ -89,11 +89,11 @@ class Brackets
             else
             {
                 int countQ = CountQ(input);
-                if (countQ%2!=0)
+                if (countQ % 2 != 0)
                 {
                     countQ += 1;
                 }
-                Console.WriteLine(GetCatalan(countQ/2));
+                Console.WriteLine(GetCatalan(countQ / 2));
 
                 //DoBrackets("", 0, 0, input.Length / 2);
                 //for (int i = 0; i < allBrackets.Count; i++)
@@ -132,3 +132,4 @@ class Brackets
         return true;
     }
 }
+
