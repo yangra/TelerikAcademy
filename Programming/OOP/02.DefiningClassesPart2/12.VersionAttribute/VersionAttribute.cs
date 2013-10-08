@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _12.VersionAttribute
+namespace VersionAttribute
 {
     [AttributeUsage(AttributeTargets.Struct | AttributeTargets.Class |
                     AttributeTargets.Interface | AttributeTargets.Enum |

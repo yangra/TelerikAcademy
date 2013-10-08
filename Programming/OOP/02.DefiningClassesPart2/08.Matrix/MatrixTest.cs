@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _08.Matrix
+namespace Matrix
 {
     class MatrixTest
     {
